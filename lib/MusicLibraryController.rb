@@ -47,7 +47,7 @@ class MusicLibraryController
     input = gets.chomp
     
     if artist = Artist.find_by_name(input)
-      artist.songs.sort_by(&:name)
+      artist.songs.sort_by(&:name).each.with_index(1)
       puts 
     
   end
