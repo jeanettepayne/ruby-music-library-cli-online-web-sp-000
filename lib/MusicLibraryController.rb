@@ -71,6 +71,7 @@ class MusicLibraryController
       song = list_of_songs
     # song = Song.all[input_toindex]
     puts "Playing #{song.name} by #{song.artist.name}" if song
+   end
   end
   
 end
