@@ -76,5 +76,3 @@ class MusicLibraryController
   
 end
 
-if input.chomp == "list songs"
-  self.list_songs
