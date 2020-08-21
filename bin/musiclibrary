@@ -4,7 +4,3 @@ require_relative '../config/environment'
 
 MusicLibraryController.new.call
 
-input = gets.strip
-
-if input == "list songs"
-  MusicLibraryController.list_songs
