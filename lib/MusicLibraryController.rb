@@ -25,7 +25,7 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort_by(&:name).each_with_index(1) do |song, indx|
+    Song.all.sort_by(&:name).each.with_index(1) do |song, indx|
       puts "#{indx}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
     end
   end
