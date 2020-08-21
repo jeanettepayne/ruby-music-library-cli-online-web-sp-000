@@ -71,7 +71,7 @@ class MusicLibraryController
       array = list_songs
       song = array[input-1]
     # song = Song.all[input_toindex]
-    puts "Playing #{song.name} by #{song.artist.name}" if song
+    puts "Playing #{song.name} by #{song.artist.name}" 
    end
   end
   
