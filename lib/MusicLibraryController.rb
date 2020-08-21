@@ -69,6 +69,7 @@ class MusicLibraryController
     input = gets.chomp.to_i
     if (1..Song.all.length).include?(input)
       array = list_songs
+      song = array[input-1]
     # song = Song.all[input_toindex]
     puts "Playing #{song.name} by #{song.artist.name}" if song
    end
