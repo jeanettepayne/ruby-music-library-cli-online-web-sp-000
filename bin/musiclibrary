@@ -7,4 +7,4 @@ MusicLibraryController.new.call
 input = gets.strip
 
 if input == "list songs"
-  self.list_songs
+  MusicLibraryController.list_songs
