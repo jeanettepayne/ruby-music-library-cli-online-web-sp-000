@@ -75,3 +75,6 @@ class MusicLibraryController
  end
   
 end
+
+if input.chomp == "list songs"
+  self.list_songs
